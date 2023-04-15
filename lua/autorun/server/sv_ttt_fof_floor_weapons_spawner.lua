@@ -143,6 +143,7 @@ hook.Add("TTTPrepareRound", "FWGGetSpawnPoints", function()
             PlaceWeapon(table.Random(floorWeapons), pos)
             spawnCount = spawnCount + 1
         end
+            end)
     end)
 end)
 
